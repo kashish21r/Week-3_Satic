@@ -156,9 +156,9 @@ h1 {
 }
 
 .cta-button-container:hover {
-    background-color: #4579a6;
+    background-color: rgb(9, 86, 134);
 }
-
+/*edit*/
 .cta-icon-wrapper {
     display: flex;
     align-items: center;
