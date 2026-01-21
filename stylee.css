@@ -107,35 +107,37 @@ h1 {
     color: #333;
     margin-bottom: 80px;
 }
+/***************************** Editing ***********************/
 
-.card-container {
+.picture{
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    max-height: 105px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.picture img{
+    width: 400px;
+    height: 500px;
+    border: 2px solid #ff3d0036;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+
 }
 
-.card {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    flex: 1;
-    text-align: left;
-    margin-top: 15px;
+.picture img:hover{
+    transform: scale(1.03);
+}
+figcaption{
+    margin-left: 20px;
+     font-size: 1.0rem;
+     margin-top: 5.7px;
 }
 
-.card h2 {
-    color: #333;
-    font-size: 1.2rem;
-    margin-top: 0;
-}
 
-.card p {
-    color: #2a4f8a;
-    font-size: 0.9rem;
-    margin-bottom: 0;
-}
+
 /************************* Action btn **************************/
 
 
